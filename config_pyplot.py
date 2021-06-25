@@ -39,7 +39,7 @@ def config_matplotlib():
     rcParams['ytick.minor.width'] = 0.8
     rcParams['ytick.direction'] = 'in'
     
-    ax.set_xticks([2,4,6,8,10])
-    my_locator = MaxNLocator(6)
+    #ax.set_xticks([2,4,6,8,10])
+    #my_locator = MaxNLocator(6)
     # Set up axes and plot some awesome science
-    ax.yaxis.set_major_locator(my_locator)
+    #ax.yaxis.set_major_locator(my_locator)
